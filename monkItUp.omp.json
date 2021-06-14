@@ -1,0 +1,162 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#100e23",
+          "background": "#ffe9aa"
+        },
+        {
+          "type": "os",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#3A86FF",
+          "leading_diamond": "\uE0B6"
+        },
+        {
+          "type": "session",
+          "style": "powerline",
+          "foreground": "#ffffff",
+          "background": "#3A86FF"
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#ff479c",
+          "properties": {
+            "prefix": " \uE5FF ",
+            "style": "full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#0f202c",
+          "background": "#8aff1c",
+          "properties": {
+            "display_stash_count": true,
+            "display_upstream_icon": true,
+            "display_status": true,
+            "status_colors_enabled": true,
+            "color_background": true,
+            "local_changes_color": "#e5ff00",
+            "working_color": "#ff0015",
+            "staging_color": "#04ff04",
+            "ahead_color": "#2EC4B6",
+            "behind_color": "#8A4FFF",
+            "prefix": "<#ffea00>\ue0b1 </>"
+          }
+        },
+        {
+          "type": "exit",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#ff8080",
+          "properties": {
+            "prefix": " \uE20F"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "newline": false,
+      "segments": [
+        {
+          "type": "python",
+          "style": "powerline",
+          "foreground": "#906cff",
+          "properties": {
+            "prefix": "\uE235 ",
+            // "prefix": "\u005b\uE235 ",
+            // "postfix": "\u005D ",
+            "display_version": false
+          }
+        },
+        {
+          "type": "go",
+          "style": "powerline",
+          "foreground": "#7FD5EA",
+          "properties": {
+            "prefix": "\uFCD1 ",
+            "display_version": false
+          }
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "foreground": "#76b367",
+          "properties": {
+            "prefix": "\uE718 ",
+            "display_version": false
+          }
+        },
+        {
+          "type": "ruby",
+          "style": "powerline",
+          "foreground": "#f44336",
+          "properties": {
+            "prefix": "\uE791",
+            "display_version": false
+          }
+        },
+        {
+          "type": "java",
+          "style": "powerline",
+          "foreground": "#ea2d2e",
+          "properties": {
+            "prefix": "\uE738 ",
+            "display_version": false
+          }
+        },
+        {
+          "type": "julia",
+          "style": "powerline",
+          "foreground": "#4063D8",
+          "properties": {
+            "prefix": " \uE624 ",
+            "display_version": false
+          }
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "#007ACC",
+          "properties": {
+            "prefix": "[",
+            "postfix": "]"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#007ACC",
+          "properties": {
+            "prefix": "",
+            "text": "\u279C"
+            // "text": "\u276F"
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": false
+}
